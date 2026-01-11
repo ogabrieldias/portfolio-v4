@@ -4,7 +4,7 @@
 Este é o meu portfólio pessoal, desenvolvido para apresentar minha trajetória, habilidades e projetos.  
 O objetivo é transformar código em experiência, mostrando criatividade, dedicação e visão em cada detalhe.  
 
-🔗 Acesse online: [portfolio-v4-2025.vercel.app](https://portfolio-v4-2026.vercel.app/)
+🔗 Acesse online: [portfolio-v4-2026.vercel.app](https://portfolio-v4-2026.vercel.app/)
 
 ---
 
