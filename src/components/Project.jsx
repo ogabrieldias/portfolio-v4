@@ -169,6 +169,16 @@ const Project = () => (
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_2 ">
+          <BentoCard
+            src="videos/projects/Crud.mp4"
+            title={<>Cr<b>u</b>d</>}
+            description="Projeto de operação CRUD."
+            isComingSoon
+            link="https://crud-frontend-2026.vercel.app"
+          />
+        </BentoTilt>
+
+        <BentoTilt className="bento-tilt_2 ">
           <div className="flex size-full flex-col justify-between bg-violet-300 p-5 ">
             <h1 className="bento-title special-font max-w-64 text-black">
               Pro<b>j</b>eto em anda<b>m</b>ento ag<b>u</b>arde!
