@@ -111,7 +111,7 @@ const Project = () => (
           title="Pro<b>je</b>tos"
           containerClass="mt-5 text-center"
         />
-        <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50 mt-9">
+        <p className="font-circular-web text-lg text-blue-50 opacity-50 mt-9 flex-center text-center">
           Cada projeto aqui é mais do que código: é prova da minha dedicacão, criatividade e visão. <br />
           Explore e descubra como transformo ideias em experiências digitais.
         </p>
@@ -120,8 +120,9 @@ const Project = () => (
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
           src="videos/projects/Weather.mp4"
-          title={<>Cli<b>m</b>a</>}
-          description="App que mostra clima em tempo real de qualquer cidade com temperatura, condicoes e imagem ilustrativa."
+          title={<span className="text-white">Cli<b>m</b>a</span>}
+          description={<span className="text-white">App que mostra clima em tempo real de qualquer cidade com temperatura, condicoes e imagem ilustrativa.</span>}
+          
           isComingSoon
           link="https://clima-ht49.onrender.com"
         />
@@ -131,8 +132,8 @@ const Project = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/projects/Costs.mp4"
-            title={<>Cos<b>t</b>s</>}
-            description="App em React para cadastrar projetos, adicionar servicos e controlar custos."
+            title={<span className="text-red-500">Cos<b>t</b>s</span>}
+            description={<span className="text-red-500">App em React para cadastrar projetos, adicionar servicos e controlar custos.</span>}
             isComingSoon
             link="https://costs01.vercel.app/"
           />
@@ -161,8 +162,8 @@ const Project = () => (
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/projects/Agenda.mp4"
-            title={<>Ag<b>e</b>n<b>d</b>a</>}
-            description="Projeto de agenda moderna com tela de login."
+            title={<span className="text-white">Ag<b>e</b>n<b>d</b>a</span>}
+            description={<span className="text-white">Projeto de agenda moderna com tela de login.</span>}
             isComingSoon
             link="https://agenda-26.vercel.app"
           />
@@ -171,8 +172,8 @@ const Project = () => (
         <BentoTilt className="bento-tilt_2 ">
           <BentoCard
             src="videos/projects/Crud.mp4"
-            title={<>Cr<b>u</b>d</>}
-            description="Projeto de operação CRUD."
+            title={<span className="text-white">Cr<b>u</b>d</span>}
+            description={<span className="text-white">Projeto de operação CRUD.</span>}
             isComingSoon
             link="https://crud-frontend-2026.vercel.app"
           />
@@ -180,7 +181,7 @@ const Project = () => (
 
         <BentoTilt className="bento-tilt_2 ">
           <div className="flex size-full flex-col justify-between bg-violet-300 p-5 ">
-            <h1 className="bento-title special-font max-w-64 text-black">
+            <h1 className="bento-title special-font max-w-64 text-black mt-[45px]">
               Pro<b>j</b>eto em anda<b>m</b>ento ag<b>u</b>arde!
             </h1>
             <TiLocationArrow className="m-5 scale-[5] self-end" />
