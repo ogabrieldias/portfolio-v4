@@ -117,19 +117,41 @@ const Project = () => (
         </p>
       </div>
 
-      <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
-        <BentoCard
-          src="videos/projects/Weather.mp4"
-          title={<span className="text-white">Cli<b>m</b>a</span>}
-          description={<span className="text-white">App que mostra clima em tempo real de qualquer cidade com temperatura, condicoes e imagem ilustrativa.</span>}
-          
+      <BentoTilt className="border-hsla relative mb-7 h-[500px] w-full overflow-hidden rounded-md md:h-[70vh]">
+        <BentoCard 
+          src="videos/projects/Pet.mp4"
+          title={<span className="text-black">Pe<b>t</b>Shop</span>}
+          description={<span className="text-black">Website de agendamento de serviços de PetShop.</span>}
           isComingSoon
-          link="https://clima-ht49.onrender.com"
+          link="https://landing-pet-vida.vercel.app/"
         />
       </BentoTilt>
 
+      <BentoTilt className="border-hsla relative mb-7 h-[500px] w-full overflow-hidden rounded-md md:h-[70vh]">
+        <BentoCard
+          src="videos/projects/TechDias.mp4"
+          title={<span className="text-black">Te<b>c</b>h<b>D</b>ias</span>}
+          description={<span className="text-black">WebSite de apresentação da TechDias</span>}
+          isComingSoon
+          link="https://techdias-landing.vercel.app/"
+        />
+      </BentoTilt>
+
+
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
+          <BentoCard
+            src="videos/projects/Weather.mp4"
+            title={<span className="text-white">Cli<b>m</b>a</span>}
+            description={<span className="text-white">App que mostra clima em tempo real de qualquer cidade com temperatura, condicoes e imagem ilustrativa.</span>}
+            
+            isComingSoon
+            link="https://clima-ht49.onrender.com"
+          />
+        </BentoTilt>
+
+
+        <BentoTilt className="bento-tilt_1 row-span-2 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/projects/Costs.mp4"
             title={<span className="text-red-500">Cos<b>t</b>s</span>}
@@ -139,7 +161,7 @@ const Project = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:ms-0">
+        <BentoTilt className="bento-tilt_1 row-span-4 md:col-span-1 md:ms-0">
           <BentoCard
             src="videos/projects/Cardapio.mp4"
             title={<>Me<b>n</b>u</>}
@@ -149,7 +171,7 @@ const Project = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_1 md:col-span-1 md:me-0">
+        <BentoTilt className="bento-tilt_1 row-span-4 md:col-span-1 md:me-0">
           <BentoCard
             src="videos/projects/Android.mp4"
             title={<>An<b>d</b>roid</>}
