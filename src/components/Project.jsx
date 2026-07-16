@@ -118,25 +118,35 @@ const Project = () => (
       </div>
 
       <BentoTilt className="border-hsla relative mb-7 h-[500px] w-full overflow-hidden rounded-md md:h-[70vh]">
-        <BentoCard 
-          src="videos/projects/Pet.mp4"
-          title={<span className="text-black">Pe<b>t</b>Shop</span>}
-          description={<span className="text-black">Website de agendamento de serviços de PetShop.</span>}
-          isComingSoon
-          link="https://landing-pet-vida.vercel.app/"
-        />
-      </BentoTilt>
-
-      <BentoTilt className="border-hsla relative mb-7 h-[500px] w-full overflow-hidden rounded-md md:h-[70vh]">
         <BentoCard
-          src="videos/projects/TechDias.mp4"
-          title={<span className="text-black">Te<b>c</b>h<b>D</b>ias</span>}
-          description={<span className="text-black">WebSite de apresentação da TechDias</span>}
+          src="videos/projects/Yesu.mp4"
+          title={<span className="text-white">Ye<b>s</b>u</span>}
+          description={<span className="text-white">Website da YESU</span>}
           isComingSoon
-          link="https://techdias-landing.vercel.app/"
+          link="https://yesu-three.vercel.app"
         />
       </BentoTilt>
+      <div className="grid grid-cols-1 gap-7 lg:grid-cols-2">
+        <BentoTilt className="border-hsla relative mb-7 h-[500px] w-full overflow-hidden rounded-md md:h-[70vh]">
+          <BentoCard
+            src="videos/projects/Pet.mp4"
+            title={<span className="text-black">Pe<b>t</b>Shop</span>}
+            description={<span className="text-black">Website de agendamento de serviços de PetShop.</span>}
+            isComingSoon
+            link="https://landing-pet-vida.vercel.app/"
+          />
+        </BentoTilt>
 
+        <BentoTilt className="border-hsla relative mb-7 h-[500px] w-full overflow-hidden rounded-md md:h-[70vh]">
+          <BentoCard
+            src="videos/projects/TechDias.mp4"
+            title={<span className="text-black">Te<b>c</b>h<b>D</b>ias</span>}
+            description={<span className="text-black">WebSite de apresentação da TechDias</span>}
+            isComingSoon
+            link="https://techdias-landing.vercel.app/"
+          />
+        </BentoTilt>
+      </div>
 
       <div className="grid h-[135vh] w-full grid-cols-2 grid-rows-3 gap-7">
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
@@ -144,7 +154,7 @@ const Project = () => (
             src="videos/projects/Weather.mp4"
             title={<span className="text-white">Cli<b>m</b>a</span>}
             description={<span className="text-white">App que mostra clima em tempo real de qualquer cidade com temperatura, condicoes e imagem ilustrativa.</span>}
-            
+
             isComingSoon
             link="https://clima-ht49.onrender.com"
           />
@@ -171,16 +181,6 @@ const Project = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_1 row-span-4 md:col-span-1 md:me-0">
-          <BentoCard
-            src="videos/projects/Android.mp4"
-            title={<>An<b>d</b>roid</>}
-            description="Projeto que simula um site Android com efeito moderno."
-            isComingSoon
-            link="https://ogabrieldias.github.io/android/"
-          />
-        </BentoTilt>
-      
         <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
           <BentoCard
             src="videos/projects/Agenda.mp4"
@@ -201,14 +201,14 @@ const Project = () => (
           />
         </BentoTilt>
 
-        <BentoTilt className="bento-tilt_2 ">
+        {/* <BentoTilt className="bento-tilt_2 ">
           <div className="flex size-full flex-col justify-between bg-violet-300 p-5 ">
             <h1 className="bento-title special-font max-w-64 text-black mt-[45px]">
               Pro<b>j</b>eto em anda<b>m</b>ento ag<b>u</b>arde!
             </h1>
             <TiLocationArrow className="m-5 scale-[5] self-end" />
           </div>
-        </BentoTilt>
+        </BentoTilt> */}
       </div>
     </div>
   </section>
