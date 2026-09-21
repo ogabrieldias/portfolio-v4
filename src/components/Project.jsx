@@ -118,8 +118,6 @@ const Project = () => (
       </div>
 
       
-      
-      
       <BentoTilt className="border-hsla relative mb-7 h-[500px] w-full overflow-hidden rounded-md md:h-[70vh]">
         <BentoCard
           src="videos/projects/New-crm.mp4"
@@ -128,6 +126,9 @@ const Project = () => (
           isComingSoon
           link="https://crm-59cf.vercel.app/"
         />
+      </BentoTilt>
+      
+      <BentoTilt className="border-hsla relative mb-7 h-[500px] w-full overflow-hidden rounded-md md:h-[70vh]">
         <BentoCard
           src="videos/projects/Yesu.mp4"
           title={<span className="text-white">Ye<b>s</b>u</span>}
